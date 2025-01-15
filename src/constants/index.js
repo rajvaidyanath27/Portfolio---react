@@ -10,28 +10,31 @@ export const ABOUT_TEXT = `I’m a versatile MERN stack developer and AI/ML Enth
 export const EXPERIENCES = [
   {
     year: "2008 - 2021",
+    role: "Student",
     company: "Holy Cross School",
     description: `Class 10th`,
     technologies: '85.6%',
   },
   {
     year: "2021 - 2023",
+    role: "Student",
     company: "Sunbeam School",
     description: `Class 12th`,
     technologies: '80%',
   },
   {
     year: "2023 - 2027",
+    role: "Student",
     company: "Galgotias University",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: 'MERN Stack',
+    
   },
   {
-    year: "2024 Dec - 2024 Mar",
-    role: "React Developer",
-    company: "Paypal",
-    description: ` Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024 Dec - ...",
+    role: "Upcoming....",
+    company: "Soon!!!",
+    description: ` Looking for an Intern..........`,
+    technologies: 'MERN Stack',
   },
 ];
 
