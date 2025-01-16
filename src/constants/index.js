@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I'm a driven MERN stack developer and a second-year BTech student in CSE, passionate about crafting seamless, high-performance web applications. From building intuitive front-end experiences with React and its frameworks to designing robust back-end systems with Node.js and databases like MySQL, PostgreSQL, and MongoDB, I’m focused on creating innovative solutions that fuel business growth and delight users.`;
+export const HERO_CONTENT = `I love to Build, Code & Create Websites.`;
 
-export const ABOUT_TEXT = `I’m a versatile MERN stack developer and AI/ML Enthusiast . I am Skilled in React, Next.js, Node.js, and databases like MySQL and MongoDB, I excel at solving complex problems and delivering impactful solutions. Passionate about learning, staying ahead of tech trends, and contributing to open-source projects, I thrive in collaborative environments and enjoy turning ideas into reality.`;
+export const ABOUT_TEXT = `I’m a versatile MERN stack developer and AI/ML Enthusiast, Currently i am in my IInd year pursuing Btech in CSE. I am Skilled in React, Next.js, Node.js, and databases like MySQL and MongoDB, I excel at solving complex problems and delivering impactful solutions. Passionate about learning, staying ahead of tech trends, and contributing to open-source projects, I thrive in collaborative environments and enjoy turning ideas into reality.`;
 
 export const EXPERIENCES = [
   {
@@ -61,11 +61,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Framer Motion",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "React.js", "Express", "FramerMotion"],
   },
 ];
 

@@ -38,6 +38,7 @@ const Contacts = () => {
          whileInView={{opacity:1, y:0}}
          initial={{opacity:0, y:-100}}
          transition={{duration:1}}
+       
          className="my-10 text-center text-4xl">Get in Touch</motion.h1>
         <motion.h3
          whileInView={{opacity:1, y:0}}
