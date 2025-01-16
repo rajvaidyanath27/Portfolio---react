@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
+import { FaFigma } from "react-icons/fa";
 
 
 const Technologies = () => {
@@ -28,6 +29,9 @@ const Technologies = () => {
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">  
                <TbBrandFramerMotion className="text-5xl text-red-800"/>
+            </div>
+            <div className="rounded-2xl border-4 border-neutral-800 p-4">  
+               <FaFigma className="text-5xl text-pink-600"/>
             </div>
             
         </div>

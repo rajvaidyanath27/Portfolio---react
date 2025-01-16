@@ -1,5 +1,16 @@
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
+import { motion } from "framer-motion";
+
+const container = (delay) => ({
+  hidden: { opacity: 0, x: -100, scale: 0.8 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    scale: 1,
+    transition: { delay, duration: 0.8, ease: "easeOut" },
+  },
+});
 
 const About = () => {
   return (
@@ -9,12 +20,24 @@ const About = () => {
         <div className="flex flex-wrap">
             <div className='w-full lg:w-1/2 lg:p-8'>
             <div className='flex items-center justify-center'>
-                <img className="rounded-2xl" src={aboutImg} alt="about" />
+                <motion.img
+                variants={container(0)}
+                initial="hidden"
+                animate="visible"
+                 className="rounded-2xl" src={aboutImg} alt="about" />
             </div>
             </div>
             <div className="w-full lg:w-1/2">
               <div className="flex justify-center lg:justify-start">
-                 <p className="my-2 mt-20 max-w-xl py-6 text-1.5xl leading-loose">{ABOUT_TEXT}</p>
+                 <motion.p
+                initial={{ opacity: 0, x: 100, scale: 0.9 }}
+                animate={{ opacity: 1, x: 0, scale: 1 }}
+                transition={{
+                  duration: 1.5,
+                  ease: "easeInOut",
+                  delay: 0.5,
+                }}
+                  className="my-2 mt-20 max-w-xl py-6 text-1.5xl leading-loose">{ABOUT_TEXT}</motion.p>
               </div>
             </div>
         </div>
