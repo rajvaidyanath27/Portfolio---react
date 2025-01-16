@@ -21,6 +21,8 @@ const Contacts = () => {
       body: json
     }).then((res) => res.json());
 
+    console.log(res);
+
     if (res.success) {
       Swal.fire({
         title: "Success!",
@@ -51,6 +53,7 @@ const Contacts = () => {
   <div className="input-box mb-4">
     <input
       type="text"
+      name="firstname"
       className="field w-full p-3 border text-black border-gray-300 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
       placeholder="First Name"
       required
@@ -60,6 +63,7 @@ const Contacts = () => {
   <div className="input-box mb-4">
     <input
       type="text"
+      name="lastname"
       className="field w-full p-3 border text-black border-gray-300 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
       placeholder="Last Name"
       required
@@ -69,6 +73,7 @@ const Contacts = () => {
   <div className="input-box mb-4">
     <input
       type="email"
+      name="email"
       className="field w-full p-3  border-gray-300 rounded-2xl text-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
       placeholder="Email"
       required
@@ -78,6 +83,7 @@ const Contacts = () => {
   <div className="input-box mb-4">
     <input
       type="text"
+      name="phone"
       className="field w-full p-3 border text-black border-gray-300 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
       placeholder="Phone"
       required
@@ -88,6 +94,7 @@ const Contacts = () => {
     <textarea
       className="field w-full p-3 border border-gray-300 text-black rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
       placeholder="Your Message"
+      name="message"
       rows="4"
       required
     ></textarea>
