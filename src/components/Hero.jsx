@@ -2,7 +2,7 @@ import {HERO_CONTENT} from "../constants";
 import profilePic from "../assets/kevinRushProfile.png";
 import { motion } from "motion/react"
 
-const container = (dealy) => ({
+const container = (delay) => ({
     hidden: { x: -100, opacity: 0},
     visible: {
         x:0,
