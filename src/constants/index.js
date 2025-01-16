@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Galgotias University, Delhi , India",
+  address: "Delhi , India",
   phoneNo: "+91 9559060225 ",
   email: "rajshowspeed@gmail.com",
 };

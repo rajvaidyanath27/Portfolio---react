@@ -25,9 +25,9 @@ const Technologies = () => {
     <div className="border-b border-neutral-800 pb-24">
         <motion.h1
         whileInView={{ opacity :1,y:0}}
-        initial={{ opacity: 0,y: -100}}
-        tranistion={{duration:2}}
-         className="my-20 text-center text-4xl ">Technologies</motion.h1>
+        initial={{ opacity: 0,y: -150}}
+        tranistion={{duration:1.5}}
+         className="my-20 text-center text-5xl ">Tech<span className="text-orange-500">nologies</span></motion.h1>
         <motion.div
         whileInView={{opacity: 1,x:0}}
         initial={{opacity: 0,x: -100}}
