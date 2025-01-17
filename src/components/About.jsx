@@ -47,7 +47,13 @@ const About = () => {
                 whileInView={{opacity:1, x:0}}
           initial={{opacity:0, x:200}}
           transition={{duration:1.5}}
-                  className="my-2 mt-20 max-w-xl py-6 text-1.8xl leading-loose">{ABOUT_TEXT}</motion.p>
+                  className="my-2 mt-20 max-w-xl py-6 text-1.8xl leading-loose">{ABOUT_TEXT}
+                  <div className="flex justify-center  items-center mt-20 ">
+                  <h2 className="text-4xl  font-thin">Actively Working on Projects...</h2>
+                  <div className="animate-spin rounded-full h-12  w-12 border-t-4 border-orange-500 ml-4"></div>
+                  </div>
+                  </motion.p>
+                  
               </div>
             </div>
         </div>

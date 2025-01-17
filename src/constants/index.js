@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I love to Build, Code & Create Websites.`;
 
-export const ABOUT_TEXT = `I’m a versatile MERN stack developer and AI/ML Enthusiast, Currently i am in my IInd year pursuing Btech in CSE. I am Skilled in React, Next.js, Node.js, and databases like MySQL and MongoDB, I excel at solving complex problems and delivering impactful solutions. Passionate about learning, staying ahead of tech trends, and contributing to open-source projects, I thrive in collaborative environments and enjoy turning ideas into reality.`;
+export const ABOUT_TEXT = `I’m a versatile MERN stack developer and AI/ML Enthusiast, Currently i am in my 2nd year pursuing Btech in CSE. I am Skilled in React, Node.js, and databases like MySQL and MongoDB.I have a Strong command in MERN Stack, I excel at solving complex problems and delivering impactful solutions. Passionate about learning, staying ahead of tech trends, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
