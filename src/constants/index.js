@@ -40,11 +40,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Music Player App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A interactive music player that allows users to drag and drop video songs directly into the app and play them seamlessly. The app supports real-time video playback, providing a simple yet engaging user experience.", 
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
   },
   {
     title: "Task Management App",
