@@ -6,6 +6,8 @@ import { SiMysql } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaFigma } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { SiRedux } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 
 const iconVariants = (duration) => ({
    initial: { y: -10},
@@ -33,6 +35,7 @@ const Technologies = () => {
         initial={{opacity: 0,x: -100}}
         tranistion={{duration: 1.5}}
          className="flex flex-wrap items-center justify-center gap-4">
+            
             <motion.div
             variants={iconVariants(1)}
             initial="initial"
@@ -72,13 +75,32 @@ const Technologies = () => {
              className="rounded-2xl border-4 border-neutral-800 p-4">  
                <SiMysql className="text-5xl text-blue-800"/>
             </motion.div>
-
+            
             <motion.div
              variants={iconVariants(2.6)}
              initial="initial"
              animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">  
                <TbBrandFramerMotion className="text-5xl text-red-800"/>
+            </motion.div>
+
+            
+            
+
+            <motion.div
+             variants={iconVariants(2.8)}
+             initial="initial"
+             animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">  
+               <SiRedux className="text-5xl text-blue-600"/>
+            </motion.div>
+
+            <motion.div
+             variants={iconVariants(2.8)}
+             initial="initial"
+             animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">  
+               <SiTailwindcss className="text-5xl text-cyan-400"/>
             </motion.div>
 
             <motion.div
@@ -88,6 +110,10 @@ const Technologies = () => {
              className="rounded-2xl border-4 border-neutral-800 p-4">  
                <FaFigma className="text-5xl text-pink-600"/>
             </motion.div>
+           
+
+
+
             
         </motion.div>
     </div>

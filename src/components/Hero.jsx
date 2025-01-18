@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/hyt.jpg";
+import profilePic from "../assets/kevinRushProfile.jpg";
 import { motion } from "framer-motion";
 
 // Container animation for smooth transitions
