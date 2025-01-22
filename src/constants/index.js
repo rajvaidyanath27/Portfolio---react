@@ -47,11 +47,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
   },
   {
-    title: "Task Management App",
+    title: "Food Delivery App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "The Food Delivery App is a web and mobile platform that allows users to browse restaurants, view menus, place orders, and track their food deliveries in real-time. It connects customers, restaurants, and delivery personnel for a seamless experience.",
+      technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
   },
   {
     title: "Portfolio Website",
