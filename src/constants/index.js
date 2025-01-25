@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I love to Build, Code & Create Websites.`;
@@ -54,10 +54,10 @@ export const PROJECTS = [
       technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
   },
   {
-    title: "Portfolio Website",
+    title: "Top Movies",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Top Movies Search app, the general idea is that your app will allow users to search for and discover the best movies, view detailed information about each one (such as plot, cast, release year, etc.), and maybe even sort or filter the movies based on different criteria (e.g., top-rated, newest releases, genres, etc.).",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
