@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.avif";
 import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.png";
 
@@ -47,10 +47,10 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
   },
   {
-    title: "Food Delivery App",
+    title: "Resturant Reservation",
     image: project2,
     description:
-      "The Food Delivery App is a web and mobile platform that allows users to browse restaurants, view menus, place orders, and track their food deliveries in real-time. It connects customers, restaurants, and delivery personnel for a seamless experience.",
+      " Users can book tables by selecting the date, time, and number of guests..",
       technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
   },
   {
