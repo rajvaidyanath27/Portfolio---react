@@ -4,10 +4,11 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
-import { FaFigma } from "react-icons/fa";
+
 import { motion } from "framer-motion";
 import { SiRedux } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 const iconVariants = (duration) => ({
    initial: { y: -10},
@@ -103,12 +104,14 @@ const Technologies = () => {
                <SiTailwindcss className="text-5xl text-cyan-400"/>
             </motion.div>
 
+            
+
             <motion.div
              variants={iconVariants(2.8)}
              initial="initial"
              animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">  
-               <FaFigma className="text-5xl text-pink-600"/>
+               <SiNextdotjs className="text-5xl text-grey-600"/>
             </motion.div>
            
 
