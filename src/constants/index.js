@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.avif";
 import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.png";
@@ -40,11 +40,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Music Player App",
+    title: "Get Me A Coffee",
     image: project1,
     description:
-      "A interactive music player that allows users to drag and drop video songs directly into the app and play them seamlessly. The app supports real-time video playback, providing a simple yet engaging user experience.", 
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
+      " The Get Me A Coffee app is a simple, user-friendly application designed to help users quickly order their favorite coffee with just a few clicks. Built with Next.js, the app leverages the power of React and server-side rendering to provide a fast and seamless experience. ", 
+    technologies: [ "React", "Next.js", "Node.js", "MongoDB", "Express"],
   },
   {
     title: "Resturant Reservation",
