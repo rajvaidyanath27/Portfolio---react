@@ -6,6 +6,7 @@ import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Contacts from "./components/Contacts.jsx";
 import Footer from "./components/Footer.jsx";
+// import GalaxyScene from "./components/SpaceScene.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Hero />
       <About />
       <Technologies />
+      {/* <GalaxyScene />  */}
       <Experience />
       <Projects />
       <Contacts />

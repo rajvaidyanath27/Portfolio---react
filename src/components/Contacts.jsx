@@ -50,7 +50,7 @@ const Contacts = () => {
  whileInView={{opacity:1, y:0}}
  initial={{opacity:0, y:100}}
  transition={{duration:1.5}}
- className="bg-gradient-to-b from-purple-700  to-orange-800 p-6 rounded-2xl shadow-md  mt-10 max-w-md mx-auto">
+ className="bg-gradient-to-b from-purple-400  to-purple-900 p-6 rounded-2xl shadow-md  mt-10 max-w-md mx-auto">
   <div className="input-box mb-4">
     <input
       type="text"
@@ -104,7 +104,7 @@ const Contacts = () => {
   <div className="flex justify-center">
   <button
     type="submit"
-    className="w-60 bg-orange-700 text-white py-3  rounded-2xl hover:bg-orange-600 transition duration-200"
+    className="w-60 bg-orange-600 text-white py-3  rounded-2xl hover:bg-orange-600 transition duration-200"
   >
     Send Message
   </button>
