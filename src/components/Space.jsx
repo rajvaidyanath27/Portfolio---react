@@ -1,4 +1,5 @@
-import  { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
+
 
 const Stars = () => {
   const canvasRef = useRef(null);
@@ -20,7 +21,6 @@ const Stars = () => {
     resizeCanvas();
     window.addEventListener('resize', resizeCanvas);
 
-    // Initialize stars
     for (let i = 0; i < STAR_COUNT; i++) {
       stars.push({
         x: Math.random() * canvas.width,
@@ -58,10 +58,14 @@ const Stars = () => {
   }, []);
 
   return (
-    <div className="w-full h-full relative">
-      <canvas ref={canvasRef} className="absolute top-0 left-0 z-[-1]" />
+    <div className="w-full h-screen relative overflow-hidden">
+      {/* About Content */}
+     
+
+      {/* Star Canvas Background */}
+      <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full z-0" />
     </div>
   );
 };
 
-export default Stars;
+export default Stars; 

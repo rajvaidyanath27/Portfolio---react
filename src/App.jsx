@@ -24,9 +24,7 @@ const App = () => {
         {/* Starry background section */}
         <div className="relative w-full h-screen">
           <Stars />
-          <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-            <h1 className="text-4xl font-bold text-white">Welcome to Space!</h1>
-          </div>
+          
         </div>
 
         <Experience />
